@@ -59,4 +59,4 @@ class Solution:
 
 if __name__ == '__main__':
     sol = Solution()
-    print(sol.numberOfPatterns(1, 5))
+    print(sol.numberOfPatterns(1, 9))

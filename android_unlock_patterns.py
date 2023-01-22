@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/android-unlock-patterns/
 # 2020.12.24, medium
 import math
-DEBUG = 2
+DEBUG = 0
 class Node:
     def __init__(self, id):
         self.id = id
@@ -122,5 +122,4 @@ class Solution:
 
 if __name__ == '__main__':
     s = Solution()
-    # print(s.numberOfPatterns(1, 1))
-    print(s.numberOfPatterns(1,5))
+    print(s.numberOfPatterns(4,9))
